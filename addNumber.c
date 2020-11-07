@@ -1,8 +1,12 @@
 #include<stdio.h>
 void main(){
     
-    int a=4;
-    int b=6;
+   int a;
+   printf("enter the first number");
+   scanf("%d",&a);
+   int b;
+   printf("enter the second number");
+   scanf("%d",&b);
     int c=a+b;
     printf("%d",c);
     
